@@ -26,7 +26,7 @@ public class RedisController {
 	
 	@PostConstruct
 	public void init(){
-		for(int i=100000;i<=100020;i++){
+		for(int i=100000;i<=100030;i++){
 		 model = new ModelClass(i+"","Customer"+i,"123456789"+i,"city"+i);
 		 repo.save(model);
 		}
