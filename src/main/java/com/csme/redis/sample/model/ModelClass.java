@@ -8,9 +8,9 @@ import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
-@Entity
+//@Entity
 @Component
-//@JsonInclude(JsonInclude.Include.NON_EMPTY)
+@JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class ModelClass implements Serializable {
     private static final long serialVersionUID = 1L;
     @Id
