@@ -41,12 +41,12 @@
 			<artifactId>lettuce-core</artifactId>
 			<version>6.1.5.RELEASE</version>
 		</dependency>
-		<!-- Spring Data JPA -->
+		<!-- Spring Data JPA 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 			<version>2.7.12</version>
-		</dependency>
+		</dependency>-->
 
 	<!-- H2 Database (in-memory database) -->
 		<dependency>
